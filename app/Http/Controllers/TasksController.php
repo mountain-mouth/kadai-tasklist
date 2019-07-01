@@ -44,9 +44,10 @@ class TasksController extends Controller
      */
     public function store(Request $request)
     {
+    
         $task = new Task;
         $task->content = $request->content;
-        $task->save;
+        $task->save();
         
         return redirect('/');
     }
