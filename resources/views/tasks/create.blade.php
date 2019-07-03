@@ -2,7 +2,7 @@
 
 @section('content')
 
-<h1>タスク作成ページ</h1>
+    <h1>タスク作成ページ</h1>
 
     <div class="row">
         <div class="col-6">
